@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="in.garima.campusmapper.graphmap">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="32dp"
+        android:layout_height="11dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <View
+        android:layout_width="13dp"
+        android:layout_height="383dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        tools:layout_editor_absoluteY="22dp"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <View
+        android:layout_width="282dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        tools:layout_editor_absoluteY="399dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:id="@+id/view2" />
+
+    <View
+        android:layout_width="12dp"
+        android:layout_height="344dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        tools:layout_editor_absoluteY="58dp"
+        tools:layout_editor_absoluteX="268dp" />
+
+
+
+    <View
+        android:layout_width="220dp"
+        android:layout_height="9dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        tools:layout_editor_absoluteY="51dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.57" />
+    <View
+        android:layout_width="220dp"
+        android:layout_height="9dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        tools:layout_editor_absoluteY="51dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.57" />
+
+    <View
+        android:layout_width="13dp"
+        android:layout_height="342dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        tools:layout_editor_absoluteY="60dp"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <View
+        android:layout_width="13dp"
+        android:layout_height="336dp"
+        android:layout_gravity="center"
+        android:background="#a40404"
+        tools:layout_editor_absoluteY="60dp"
+        tools:layout_editor_absoluteX="228dp" />
+
+</android.support.constraint.ConstraintLayout>

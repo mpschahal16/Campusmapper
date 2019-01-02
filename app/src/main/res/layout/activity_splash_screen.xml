@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deepa.campusmapper.Splash_screen"
+    android:background="@drawable/splashscreen"
+    android:weightSum="1"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/ts"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:text="SAHARA THE CAMPUS MAPPER WELCOMES YOU AT MORADABAD INSTITUTE OF TECHNOLOGY"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+
+</android.support.constraint.ConstraintLayout>

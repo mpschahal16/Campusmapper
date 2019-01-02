@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "950024940896",
+    "firebase_url": "https://campusmapper-a6cec.firebaseio.com",
+    "project_id": "campusmapper-a6cec",
+    "storage_bucket": "campusmapper-a6cec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950024940896:android:25a6d1ddec1b1c43",
+        "android_client_info": {
+          "package_name": "in.garima.campusmapper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950024940896-nocitjrrtpa7v25s34ad7rd32e9c73qq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.garima.campusmapper",
+            "certificate_hash": "2a7a81ab6a0a6ab880abc0cdcc4ae147c93376e2"
+          }
+        },
+        {
+          "client_id": "950024940896-mfv9otgppu9jpaltgr5j1fgmcpe8f7mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA759Fp-a5SnEEh-Z9lcIqYwf4g4U_M98Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950024940896-mfv9otgppu9jpaltgr5j1fgmcpe8f7mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

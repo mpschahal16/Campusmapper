@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.deepa.campusmapper.AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:padding="2dp"
+            android:text="A campus is a complex infrastructure.There are help maps provided that aid in reaching the user."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:src="@drawable/profile"
+            android:layout_weight="0.00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text= "A-Block"
+            />
+
+        <TextView
+            android:id="@+id/tv_long"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text=" Our main purpose is to present an application for the mobile phone users that can help them finding path from point of interest (source) to another point of interest (destination) within the campus."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/library" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text= "College Library"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:src="@drawable/dispensary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="College Dispensary"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:id="@+id/t2"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical|right"
+            android:text=" MITGI provide in-house dispensary for taking care in case of emergency."
+            />
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:src="@drawable/canteen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="College Canteen"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:id="@+id/t3"
+            android:layout_gravity="center_vertical|right"
+            android:text=" A large canteen of more than 176 sq meter provides refreshment facilities to the students and staff "
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#000"
+            android:id="@+id/t4"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical|right"
+            android:text = " Along with the navigation, this app also provides a facility to generate panic alert. Whenever in case of emergency, the user need to just touch the screen of the application it will send the message to the prior registered numbers along with the location of victim."
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:onClick="back"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:text="BACK"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            android:id="@+id/exit"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:background="@android:color/transparent"
+            android:onClick="exit"
+            android:textColor="#000"
+            app:layout_constraintLeft_toRightOf="@+id/button1"
+            android:text="EXIT"
+            android:layout_gravity="right|bottom" />
+    </LinearLayout>
+
+</ScrollView>

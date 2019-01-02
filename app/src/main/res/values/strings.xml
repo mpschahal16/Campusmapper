@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Campus Mapper</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main__page">Main_Page</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="source_arrays">
+        <item>B-101</item>
+        <item>B-102</item>
+        <item>B-103</item>
+        <item>B-104</item>
+        <item>B-105</item>
+        <item>B-106</item>
+        <item>B-107</item>
+        <item>B-109</item>
+        <item>B-110</item>
+        <item>B-112</item>
+        <item>B-113</item>
+        <item>B-114</item>
+        <item>B-115</item>
+        <item>B-116</item>
+        <item>B-117</item>
+        <item>B-118</item>
+        <item>B-119</item>
+        <item>B-120</item>
+        <item>B-121</item>
+        <item>B-122</item>
+        <item>B-123</item>
+        <item>DL</item>
+        <item>Stairs</item>
+        <item>Exit</item>
+        <item>Entrance</item>
+        <item>Main Entrance</item>
+        <item>A-Block</item>
+        <item>C-Block</item>
+        <item>D-Block</item>
+        <item>Architecture</item>
+        <item>H-Block</item>
+        <item>Pharmacy</item>
+        <item>G-Block</item>
+        <item>B-Block</item>
+        <item>Civil</item>
+
+    </string-array>
+
+    <string-array name="destination_arrays">
+        <item>B-101</item>
+        <item>B-102</item>
+        <item>B-103</item>
+        <item>B-104</item>
+        <item>B-105</item>
+        <item>B-106</item>
+        <item>B-107</item>
+        <item>B-109</item>
+        <item>B-110</item>
+        <item>B-112</item>
+        <item>B-113</item>
+        <item>B-114</item>
+        <item>B-115</item>
+        <item>B-116</item>
+        <item>B-117</item>
+        <item>B-118</item>
+        <item>B-119</item>
+        <item>B-120</item>
+        <item>B-121</item>
+        <item>B-122</item>
+        <item>B-123</item>
+        <item>DL</item>
+        <item>Entrance</item>
+        <item>Main Entrance</item>
+        <item>Stairs</item>
+        <item>Exit</item>
+        <item>A-Block</item>
+        <item>C-Block</item>
+        <item>D-Block</item>
+        <item>Architecture</item>
+        <item>H-Block</item>
+        <item>Pharmacy</item>
+        <item>G-Block</item>
+        <item>B-Block</item>
+        <item>Civil</item>
+
+
+    </string-array>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps1">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
