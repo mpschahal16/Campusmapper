@@ -94,7 +94,7 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
             dialog.show();
 
         } else {
-            String number = stripNonDigits(Name);
+           /* String number = stripNonDigits(Name);
             if (number.length() == 0) {
                 Intent i = new Intent(HomeActivity.this, Maps2Activity.class);
                 i.putExtra("U", Name);
@@ -113,7 +113,7 @@ public class HomeActivity extends AppCompatActivity implements AdapterView.OnIte
                     i.putExtra("V", Name1);
                     startActivity(i);
                 }
-            }
+            }*/
         }
     }
     public static String stripNonDigits(
