@@ -11,6 +11,18 @@
     <string name="action_settings">Settings</string>
 
     <string-array name="source_arrays">
+        <item>Main Entrance</item>
+        <item>Entrance</item>
+        <item>A-Block</item>
+        <item>B-Block</item>
+        <item>C-Block</item>
+        <item>D-Block</item>
+        <item>G-Block</item>
+        <item>H-Block</item>
+        <item>Architecture</item>
+        <item>Civil</item>
+        <item>Pharmacy</item>
+        <item>DL</item>
         <item>B-101</item>
         <item>B-102</item>
         <item>B-103</item>
@@ -32,24 +44,24 @@
         <item>B-121</item>
         <item>B-122</item>
         <item>B-123</item>
-        <item>DL</item>
         <item>Stairs</item>
         <item>Exit</item>
-        <item>Entrance</item>
-        <item>Main Entrance</item>
-        <item>A-Block</item>
-        <item>C-Block</item>
-        <item>D-Block</item>
-        <item>Architecture</item>
-        <item>H-Block</item>
-        <item>Pharmacy</item>
-        <item>G-Block</item>
-        <item>B-Block</item>
-        <item>Civil</item>
 
     </string-array>
 
     <string-array name="destination_arrays">
+        <item>Main Entrance</item>
+        <item>Entrance</item>
+        <item>A-Block</item>
+        <item>B-Block</item>
+        <item>C-Block</item>
+        <item>D-Block</item>
+        <item>G-Block</item>
+        <item>H-Block</item>
+        <item>Architecture</item>
+        <item>Civil</item>
+        <item>Pharmacy</item>
+        <item>DL</item>
         <item>B-101</item>
         <item>B-102</item>
         <item>B-103</item>
@@ -71,23 +83,10 @@
         <item>B-121</item>
         <item>B-122</item>
         <item>B-123</item>
-        <item>DL</item>
-        <item>Entrance</item>
-        <item>Main Entrance</item>
         <item>Stairs</item>
         <item>Exit</item>
-        <item>A-Block</item>
-        <item>C-Block</item>
-        <item>D-Block</item>
-        <item>Architecture</item>
-        <item>H-Block</item>
-        <item>Pharmacy</item>
-        <item>G-Block</item>
-        <item>B-Block</item>
-        <item>Civil</item>
-
-
     </string-array>
+
     <string name="title_activity_map">Map</string>
     <string name="title_activity_maps1">Map</string>
     <string name="title_activity_maps2">Map</string>
